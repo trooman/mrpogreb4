@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <header class="header">
+  <header id="header" class="header">
     <div class="container">
       <div class="header-top-wrapper">
         <div class="logo-name">
@@ -33,7 +33,7 @@
             <span class="header-middle-title-2">кессоны, канализации и другие изделия</span>
           </div>
           <div class="header-button">
-            <span class="header-btn-info">Подробнее</span>
+            <a href="#services"><span class="header-btn-info">Подробнее</span></a>
           </div>
         </div>
         <!-- header-middle-first-block -->
@@ -47,19 +47,19 @@
         <div class="header-botton-first-block">
           <ul class="navbar">
             <li class="navbar-list">
-              <a class="navbar-link" href="#">Главная</a>
+              <a class="navbar-link" href="#header">Главная</a>
             </li>
             <li class="navbar-list">
-              <a class="navbar-link" href="#">Виды работ</a>
+              <a class="navbar-link" href="#services">Виды работ</a>
             </li>
             <li class="navbar-list">
-              <a class="navbar-link" href="#">Портфолио</a>
+              <a class="navbar-link" href="#portfolio">Портфолио</a>
             </li>
             <li class="navbar-list">
-              <a class="navbar-link" href="#">Этапы работ</a>
+              <a class="navbar-link" href="#steps">Этапы работ</a>
             </li>
             <li class="navbar-list">
-              <a class="navbar-link" href="#">Контакты</a>
+              <a class="navbar-link" href="#contacts">Контакты</a>
             </li>
           </ul>
         </div>
@@ -79,7 +79,7 @@
     <!-- CONTAINER -->
   </header>
 
-  <div class="services">
+  <div id="services" class="services">
     <div class="container">
       <div class="services-title-wrapper">
         <div class="services-title-block">
@@ -296,7 +296,7 @@
     </div>
   </div>
 
-  <div class="portfolio">
+  <div id="portfolio" class="portfolio">
     <div class="container">
       <div class="portfolio-blocks">
         <div class="portfolio-left-block">
@@ -414,7 +414,7 @@
 
 
 
-  <div class="steps">
+  <div id="steps" class="steps">
     <div class="container">
       <div class="steps-title-wrapper">
         <div class="steps-title-text">
@@ -527,7 +527,7 @@
     <!-- container -->
   </div>
 
-  <div class="contacts">
+  <div id="contacts" class="contacts">
     <div class="container">
       <div class="contacts-info">
         <div class="contacts-info-text">
@@ -540,23 +540,25 @@
           </div>
           <!-- contants-title -->
           <div class="contacts-connect">
-            <img src="./img/contacts/telegram-logo.svg" alt="" class="contacts-logo" />
-            <p class="contacts-link">8 800 555-10-50 Алексей</p>
+            <img src="./img/contacts/phone.png" alt="" class="contacts-logo" />
+            <a href="tel:+8 800 555-10-50">
+              <p class="contacts-link">8 800 555-10-50 Алексей</p>
+            </a>
           </div>
           <div class="contacts-connect">
-            <img src="./img/contacts/whatsapp-logo.svg" alt="" class="contacts-logo" />
+            <img src="./img/contacts/mail.png" alt="" class="contacts-logo" />
             <p class="contacts-link">misterpogreb@yandex.ru</p>
           </div>
           <div class="contacts-connect">
-            <img src="./img/contacts/whatsapp-logo.svg" alt="" class="contacts-logo" />
+            <img src="./img/contacts/whatsapp.png" alt="" class="contacts-logo" />
             <p class="contacts-link">Whatsapp</p>
           </div>
           <div class="contacts-connect">
-            <img src="./img/contacts/telegram-logo.svg" alt="" class="contacts-logo" />
+            <img src="./img/contacts/telegram.png" alt="" class="contacts-logo" />
             <p class="contacts-link">Telegram</p>
           </div>
           <div class="contacts-connect">
-            <img src="./img/contacts/viber-logo.svg" alt="" class="contacts-logo" />
+            <img src="./img/contacts/viber.png" alt="" class="contacts-logo" />
             <p class="contacts-link">Viber</p>
           </div>
         </div>
@@ -589,6 +591,14 @@
   <!-- open certificates -->
   <div class="certificate-popup">
     <img class="certificate-pic-open" />
+  </div>
+
+
+  <div class="map">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2243.447958055372!2d37.65689781637113!3d55.78545908056215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b5358f5322e215%3A0x5648986e148f35be!2sVerkhnyaya%20Krasnosel&#39;skaya%20Ulitsa%2C%202%2C%20Moskva%2C%20Russia%2C%20107140!5e0!3m2!1sen!2see!4v1587053801422!5m2!1sen!2see"
+      width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+      tabindex="0"></iframe>
   </div>
 
   <script src="./js/main.js"></script>

@@ -51,7 +51,7 @@ let portfolioBackBtn = document.querySelector('.portfolio-back-btn');
 
 portfolioBtn.addEventListener('click', () => {
   portfolioBlock.style.display = 'none';
-  portfolieNext.classList.add('fade-in');
+  // portfolieNext.classList.add('fade-in');
   portfolieNext.style.display = 'flex';
 });
 
